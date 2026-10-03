@@ -1,6 +1,6 @@
 # Wiki Janeth Valdivia
 
-Enciclopedia pública del rastro documentado de **Janeth Valdivia Pérez**: investigación, comunidad y field-building de AI Safety en México. Solo fuentes abiertas. Metodología y exclusiones de homónimos van dentro del sitio.
+Wiki pública de **Janeth Valdivia Pérez**. En el sitio publicado solo están la portada y el artículo.
 
 ## Correr en local
 

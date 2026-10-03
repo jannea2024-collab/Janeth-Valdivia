@@ -2,3 +2,17 @@ node_modules
 docs/.vitepress/dist
 docs/.vitepress/cache
 .DS_Store
+
+# Solo se publica portada y artículo
+docs/biografia.md
+docs/cronologia.md
+docs/formacion.md
+docs/eventos.md
+docs/publicaciones.md
+docs/presencia-digital.md
+docs/prensa.md
+docs/metodologia.md
+docs/homonimos.md
+docs/fuentes.md
+docs/comunidad/
+docs/investigacion/
