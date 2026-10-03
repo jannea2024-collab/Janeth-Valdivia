@@ -1,9 +1,28 @@
 <script setup>
 import { withBase } from 'vitepress'
 
-defineProps({
+const props = defineProps({
   indexBase: { type: String, default: '' }
 })
+
+const sections = [
+  ['01-primeros-anos-y-educacion', '01', 'Primeros años y educación'],
+  ['02-trayectoria-profesional', '02', 'Trayectoria profesional'],
+  ['03-ea-upy-y-ai-safety-mexico', '03', 'EA UPY y AI Safety México'],
+  ['04-publicaciones', '04', 'Publicaciones'],
+  ['05-ensayos-y-escritos', '05', 'Ensayos y escritos'],
+  ['06-reconocimientos', '06', 'Reconocimientos'],
+  ['07-comunidad-y-voluntariado', '07', 'Comunidad y voluntariado'],
+  ['08-posiciones-publicas', '08', 'Posiciones públicas'],
+  ['09-apariciones-en-medios', '09', 'Apariciones en medios'],
+  ['10-vida-personal', '10', 'Vida personal'],
+  ['11-referencias', '11', 'Referencias'],
+  ['12-enlaces-externos', '12', 'Enlaces externos']
+]
+
+function sectionHref(id) {
+  return withBase(props.indexBase + '#' + id)
+}
 </script>
 
 <template>
@@ -61,18 +80,9 @@ defineProps({
     <nav class="cover-index" aria-label="Contenido">
       <p class="cover-level cover-level-03">03 · Índice</p>
       <ol>
-        <li><a :href="withBase(`${indexBase}#01-primeros-anos-y-educacion`)"><span>01</span> Primeros años y educación</a></li>
-        <li><a :href="withBase(`${indexBase}#02-trayectoria-profesional`)"><span>02</span> Trayectoria profesional</a></li>
-        <li><a :href="withBase(`${indexBase}#03-ea-upy-y-ai-safety-mexico`)"><span>03</span> EA UPY y AI Safety México</a></li>
-        <li><a :href="withBase(`${indexBase}#04-publicaciones`)"><span>04</span> Publicaciones</a></li>
-        <li><a :href="withBase(`${indexBase}#05-ensayos-y-escritos`)"><span>05</span> Ensayos y escritos</a></li>
-        <li><a :href="withBase(`${indexBase}#06-reconocimientos`)"><span>06</span> Reconocimientos</a></li>
-        <li><a :href="withBase(`${indexBase}#07-comunidad-y-voluntariado`)"><span>07</span> Comunidad y voluntariado</a></li>
-        <li><a :href="withBase(`${indexBase}#08-posiciones-publicas`)"><span>08</span> Posiciones públicas</a></li>
-        <li><a :href="withBase(`${indexBase}#09-apariciones-en-medios`)"><span>09</span> Apariciones en medios</a></li>
-        <li><a :href="withBase(`${indexBase}#10-vida-personal`)"><span>10</span> Vida personal</a></li>
-        <li><a :href="withBase(`${indexBase}#11-referencias`)"><span>11</span> Referencias</a></li>
-        <li><a :href="withBase(`${indexBase}#12-enlaces-externos`)"><span>12</span> Enlaces externos</a></li>
+        <li v-for="item in sections" :key="item[0]">
+          <a :href="sectionHref(item[0])"><span>{{ item[1] }}</span> {{ item[2] }}</a>
+        </li>
       </ol>
     </nav>
   </section>
