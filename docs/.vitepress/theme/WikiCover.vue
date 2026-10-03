@@ -36,19 +36,13 @@ function sectionHref(id) {
     </div>
 
     <div class="cover-stage">
-      <p class="cover-level cover-level-00">00</p>
-      <h1 class="cover-name">
-        <span class="cover-name-janeth">Janeth</span>
-        <span class="cover-name-valdivia">Valdivia</span>
-      </h1>
-
       <figure class="cover-photo">
-        <p class="cover-level cover-level-01">01 · Retrato</p>
+        <h1 class="cover-photo-name">Janeth Valdivia</h1>
         <img :src="withBase('/janeth.png')" alt="Janeth Valdivia Pérez" width="1200" height="1600" />
       </figure>
 
       <aside class="cover-ficha">
-        <p class="cover-level cover-level-02">02 · Ficha</p>
+        <p class="cover-level">Ficha</p>
         <p class="cover-ficha-name">Janeth Valdivia Pérez</p>
         <dl>
           <div>
@@ -68,17 +62,16 @@ function sectionHref(id) {
             <dd>EA UPY · Encuesta COMIA 2025 · Global South Hackathon</dd>
           </div>
         </dl>
+        <p class="cover-role">
+          Ingeniera de datos<br />
+          Economista<br />
+          Organizadora de AI Safety
+        </p>
       </aside>
-
-      <p class="cover-role">
-        Ingeniera de datos<br />
-        Economista<br />
-        Organizadora de AI Safety
-      </p>
     </div>
 
     <nav class="cover-index" aria-label="Contenido">
-      <p class="cover-level cover-level-03">03 · Índice</p>
+      <p class="cover-level">Índice</p>
       <ol>
         <li v-for="item in sections" :key="item[0]">
           <a :href="sectionHref(item[0])"><span>{{ item[1] }}</span> {{ item[2] }}</a>

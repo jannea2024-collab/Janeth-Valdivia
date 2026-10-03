@@ -139,60 +139,31 @@ a.cite {
 
 .cover-stage {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) min(34vw, 400px);
-  grid-template-rows: auto auto auto auto;
-  column-gap: 2.5rem;
-  row-gap: 0.85rem;
+  grid-template-columns: min(42vw, 440px) minmax(240px, 380px);
+  column-gap: 3rem;
   align-items: start;
+  justify-content: start;
   min-height: 0;
   padding-bottom: 1.5rem;
 }
 
-.cover-level-00 {
-  grid-column: 1;
-  grid-row: 1;
-  position: static;
-}
-
-.vp-doc .wiki-cover h1.cover-name,
-.cover-name {
-  grid-column: 1;
-  grid-row: 2;
-  position: relative;
-  z-index: 2;
-  margin: 0;
+.vp-doc .wiki-cover h1.cover-photo-name,
+.cover-photo-name {
+  margin: 0 0 0.55rem;
   padding: 0;
   border: 0;
   font-family: "Archivo Black", "Archivo", sans-serif;
   font-weight: 400;
-  line-height: 0.82;
-  letter-spacing: -0.04em;
-  text-transform: uppercase;
-}
-
-.cover-name-janeth,
-.cover-name-valdivia {
-  display: block;
-}
-
-.cover-name-janeth {
-  font-size: clamp(2.8rem, 8vw, 6.4rem);
-}
-
-.cover-name-valdivia {
-  font-size: clamp(3.4rem, 10vw, 8.2rem);
-  margin-top: -0.04em;
+  font-size: 1.15rem;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
 }
 
 .cover-photo {
-  grid-column: 2;
-  grid-row: 1 / -1;
-  position: relative;
-  top: auto;
-  right: auto;
-  z-index: 3;
+  grid-column: 1;
   width: 100%;
   margin: 0;
+  justify-self: start;
 }
 
 .cover-photo img {
@@ -204,14 +175,10 @@ a.cite {
 }
 
 .cover-ficha {
-  grid-column: 1;
-  grid-row: 4;
-  position: relative;
-  left: auto;
-  bottom: auto;
-  z-index: 5;
+  grid-column: 2;
   width: 100%;
-  max-width: 340px;
+  max-width: 380px;
+  justify-self: start;
   background: var(--paper);
   border: 1px solid var(--rule);
   padding: 14px 16px 10px;
@@ -247,13 +214,7 @@ a.cite {
 }
 
 .cover-role {
-  grid-column: 1;
-  grid-row: 3;
-  position: relative;
-  right: auto;
-  bottom: auto;
-  z-index: 4;
-  margin: 0;
+  margin: 1rem 0 0.2rem;
   font-size: 0.92rem;
   line-height: 1.35;
   letter-spacing: 0.02em;
@@ -297,30 +258,14 @@ a.cite {
 @media (max-width: 900px) {
   .cover-stage {
     grid-template-columns: 1fr;
-    grid-template-rows: none;
     padding-bottom: 0;
   }
 
-  .cover-level-00,
-  .cover-name,
   .cover-photo,
-  .cover-ficha,
-  .cover-role {
+  .cover-ficha {
     grid-column: 1;
-    grid-row: auto;
-  }
-
-  .cover-name-janeth {
-    font-size: clamp(2.6rem, 16vw, 4.4rem);
-  }
-
-  .cover-name-valdivia {
-    font-size: clamp(3.2rem, 22vw, 5.6rem);
-  }
-
-  .cover-photo {
-    width: min(100%, 420px);
-    margin: 0.4rem 0 0 auto;
+    max-width: 420px;
+    justify-self: start;
   }
 
   .cover-index ol {
