@@ -7,9 +7,9 @@ outline: [2, 3]
 
 # Janeth Valdivia
 
-**Janeth Valdivia Pérez** es una ingeniera de datos, economista y organizadora mexicana con base en Mérida, Yucatán. <a class="cite" href="#ref-1">[1]</a> <a class="cite" href="#ref-4">[4]</a> Es responsable de operaciones de AI Safety México, cofundadora de Effective Altruism UPY —el primer capítulo universitario de altruismo efectivo en México— y cofundadora de EA Universidades México. <a class="cite" href="#ref-2">[2]</a> <a class="cite" href="#ref-3">[3]</a> En 2025 fue primera autora del estudio *AI Safety in México: A Pilot Survey in Yucatán*, aceptado como póster en el XVII Congreso Mexicano de Inteligencia Artificial (COMIA) y publicado en *Research in Computing Science*. <a class="cite" href="#ref-4">[4]</a> <a class="cite" href="#ref-5">[5]</a>
+**Janeth Valdivia Pérez** es una ingeniera de datos, economista y organizadora mexicana con base en Mérida, Yucatán. <a class="cite" href="#ref-1">[1]</a> <a class="cite" href="#ref-4">[4]</a> Actualmente es estudiante de la Maestría en Ciencia e Ingeniería de la Computación en el IIMAS-UNAM, organiza el [AI x Epistemics Research Sprint](https://apartresearch.com/sprints/ai-x-epistemics-research-sprint-2026-11-13-to-2026-11-15) en Apart Research y colabora como voluntaria en operaciones de AI Safety México. <a class="cite" href="#ref-1">[1]</a> <a class="cite" href="#ref-32">[32]</a> Es cofundadora de Effective Altruism UPY —el primer capítulo universitario de altruismo efectivo en México— y cofundadora de EA Universidades México. <a class="cite" href="#ref-2">[2]</a> <a class="cite" href="#ref-3">[3]</a> En 2025 fue primera autora del estudio *AI Safety in México: A Pilot Survey in Yucatán*, aceptado como póster en el XVII Congreso Mexicano de Inteligencia Artificial (COMIA) y publicado en *Research in Computing Science*. <a class="cite" href="#ref-4">[4]</a> <a class="cite" href="#ref-5">[5]</a>
 
-Su trabajo público se concentra en traducir agendas globales de seguridad de la inteligencia artificial al contexto mexicano: cursos en español, encuestas locales, hackatones de bajo costo y puentes hacia programas como SPAR, Apart Research y BlueDot Impact. <a class="cite" href="#ref-3">[3]</a> <a class="cite" href="#ref-13">[13]</a> En 2026 lideró operaciones de las sedes de Mérida y Guadalajara del Global South AI Safety Hackathon y cursa la maestría en Ciencias de la Computación e Ingeniería en el IIMAS de la UNAM. <a class="cite" href="#ref-1">[1]</a> <a class="cite" href="#ref-13">[13]</a>
+Su trabajo público se concentra en traducir agendas globales de seguridad de la inteligencia artificial al contexto mexicano: cursos en español, encuestas locales, hackatones de bajo costo y puentes hacia programas como SPAR, Apart Research y BlueDot Impact. <a class="cite" href="#ref-3">[3]</a> <a class="cite" href="#ref-13">[13]</a> En 2026 lideró operaciones de las sedes de Mérida y Guadalajara del Global South AI Safety Hackathon. <a class="cite" href="#ref-13">[13]</a>
 
 ## 01 — Primeros años y educación {#01-primeros-anos-y-educacion}
 
@@ -17,7 +17,7 @@ Valdivia es economista e ingeniera de datos. <a class="cite" href="#ref-1">[1]</
 
 En 2022 ingresó a Ingeniería en Datos en la Universidad Politécnica de Yucatán. <a class="cite" href="#ref-4">[4]</a> <a class="cite" href="#ref-5">[5]</a> Durante una estancia profesional de dos meses en el Centro de Investigación en Ciencias de Información Geoespacial (CentroGeo), junto con Valeria Ramírez Hernández, desarrolló la encuesta piloto de AI Safety que después llegó a COMIA. <a class="cite" href="#ref-9">[9]</a> Su tesis de licenciatura trata sobre **evaluación de modelos**, en particular el riesgo de que un sistema ajuste su comportamiento al detectar que está siendo evaluado (*situational awareness*). <a class="cite" href="#ref-12">[12]</a>
 
-Desde 2026 cursa la maestría en Computer Science and Engineering —con énfasis en inteligencia artificial— en el IIMAS-UNAM. <a class="cite" href="#ref-1">[1]</a> Completó el Google Project Management Professional Certificate (2024), AIS Collab 2025 Summer Governance (ENAIS), el fellowship SPAR Fall 2025 y Frontier AI Governance de BlueDot Impact (2026). <a class="cite" href="#ref-1">[1]</a> <a class="cite" href="#ref-20">[20]</a> <a class="cite" href="#ref-21">[21]</a> También asistió a ML4GOOD Brasil 2025, al Existential Risk Workshop del Global Challenges Project en Berkeley (2023) y a foros de IFCA sobre criptografía financiera y DeFi. <a class="cite" href="#ref-1">[1]</a> <a class="cite" href="#ref-3">[3]</a>
+Desde 2026 cursa la Maestría en Ciencia e Ingeniería de la Computación —con énfasis en inteligencia artificial— en el IIMAS-UNAM. <a class="cite" href="#ref-1">[1]</a> Completó el Google Project Management Professional Certificate (2024), AIS Collab 2025 Summer Governance (ENAIS), el fellowship SPAR Fall 2025 y Frontier AI Governance de BlueDot Impact (2026). <a class="cite" href="#ref-1">[1]</a> <a class="cite" href="#ref-20">[20]</a> <a class="cite" href="#ref-21">[21]</a> También asistió a ML4GOOD Brasil 2025, al Existential Risk Workshop del Global Challenges Project en Berkeley (2023) y a foros de IFCA sobre criptografía financiera y DeFi. <a class="cite" href="#ref-1">[1]</a> <a class="cite" href="#ref-3">[3]</a>
 
 ## 02 — Trayectoria profesional {#02-trayectoria-profesional}
 
@@ -25,7 +25,9 @@ Fue becaria en CIALC-UNAM (2018–2021), auxiliar de recursos materiales en INIF
 
 En 2022 cofundó EA UPY y lo llevó de círculo de lectura a capítulo registrado ante el Centre for Effective Altruism. Como directora (hasta octubre de 2025) implementó cinco cohortes del IntroFellowship, cofundó cursos de AI Alignment, bioriesgo, career planning, bienestar animal e infosec, diseñó el Datathon 2025 y movilizó a cerca de treinta estudiantes a EAGx Ciudad de México. <a class="cite" href="#ref-1">[1]</a> <a class="cite" href="#ref-10">[10]</a>
 
-En septiembre de 2025 entró a SPAR Research como *project collaborator* (data engineer) del proyecto AI Safety Connect; el working report de enero de 2026 la lista como primera autora. <a class="cite" href="#ref-14">[14]</a> En octubre de 2025 asumió operaciones de AI Safety México. <a class="cite" href="#ref-1">[1]</a> <a class="cite" href="#ref-2">[2]</a> Es cofundadora de EA Universidades México. <a class="cite" href="#ref-2">[2]</a>
+En septiembre de 2025 entró a SPAR Research como *project collaborator* (data engineer) del proyecto AI Safety Connect; el working report de enero de 2026 la lista como primera autora. <a class="cite" href="#ref-14">[14]</a> En octubre de 2025 se sumó como voluntaria al área de operaciones de AI Safety México. <a class="cite" href="#ref-1">[1]</a> <a class="cite" href="#ref-2">[2]</a> Es cofundadora de EA Universidades México. <a class="cite" href="#ref-2">[2]</a>
+
+En Apart Research organiza el [AI x Epistemics Research Sprint](https://apartresearch.com/sprints/ai-x-epistemics-research-sprint-2026-11-13-to-2026-11-15) (13–15 de noviembre de 2026), un sprint en línea con hubs locales en varios países. <a class="cite" href="#ref-32">[32]</a>
 
 Desde junio de 2026 es Cursor Ambassador y SpaceX Ambassador. <a class="cite" href="#ref-1">[1]</a>
 
@@ -145,6 +147,7 @@ Vive y trabaja en Mérida. <a class="cite" href="#ref-1">[1]</a> Es economista, 
 29. <span id="ref-29"></span> Women Techmakers Quintana Roo. Publicación de IWD Cancún 2025, lista de voluntarias. LinkedIn, marzo de 2025.
 30. <span id="ref-30"></span> SALA AI. Sitio del evento. [lasala.ai](https://lasala.ai/).
 31. <span id="ref-31"></span> Valdivia, Janeth. Publicación de lanzamiento del Global South AI Safety Hackathon desde AI Safety México. LinkedIn. [enlace](https://es.linkedin.com/posts/janeth-valdivia-b90087111_desde-ai-safety-m%C3%A9xico-nos-sumamos-junto-activity-7460795767197302784-Fadg).
+32. <span id="ref-32"></span> «AI x Epistemics Research Sprint». Apart Research, 13–15 de noviembre de 2026. [apartresearch.com](https://apartresearch.com/sprints/ai-x-epistemics-research-sprint-2026-11-13-to-2026-11-15).
 
 ## 12 — Enlaces externos {#12-enlaces-externos}
 
@@ -155,10 +158,11 @@ Vive y trabaja en Mérida. <a class="cite" href="#ref-1">[1]</a> Es economista, 
 - [SPAR · AI Safety Connect](https://library.sparai.org/reports/ai-safety-connect-platform-gedm0j/)
 - [Hackathon recap · EA Forum](https://forum.effectivealtruism.org/posts/ttePFhSrxpRQu8CR5/running-two-ai-safety-hackathon-hubs-in-mexico-results-costs)
 - [Luma · Global South MX](https://luma.com/5q6vva0b)
+- [Apart · AI x Epistemics Research Sprint](https://apartresearch.com/sprints/ai-x-epistemics-research-sprint-2026-11-13-to-2026-11-15)
 - [Podcast de la encuesta](https://open.spotify.com/episode/7lun4sk8BwhzO4MGNM5k6V)
 
 <div class="note-box">
 
-Página de perfil enciclopédico. Cifras y fechas según las fuentes citadas. Última actualización: 2 de octubre de 2026.
+Página de perfil enciclopédico. Cifras y fechas según las fuentes citadas. Última actualización: 31 de octubre de 2026.
 
 </div>

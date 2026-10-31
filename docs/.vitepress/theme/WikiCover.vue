@@ -30,7 +30,7 @@ function sectionHref(id) {
     <div class="cover-rail">
       <span>Wiki</span>
       <span class="cover-rail-line" aria-hidden="true"></span>
-      <span>02.10.2026</span>
+      <span>31.10.2026</span>
       <span class="cover-rail-line" aria-hidden="true"></span>
       <span>Mérida · MX</span>
     </div>
@@ -51,11 +51,11 @@ function sectionHref(id) {
           </div>
           <div>
             <dt>Educación</dt>
-            <dd>Ing. Datos, UPY · M.Sc. IIMAS-UNAM</dd>
+            <dd>Ing. Datos, UPY · Maestría en Ciencia e Ingeniería de la Computación (en curso), IIMAS-UNAM</dd>
           </div>
           <div>
             <dt>Ocupación</dt>
-            <dd>AI Safety México · Operations lead</dd>
+            <dd>Apart Research · AI x Epistemics Sprint · AI Safety México (voluntaria, operaciones)</dd>
           </div>
           <div>
             <dt>Conocida por</dt>
